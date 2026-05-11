@@ -17,7 +17,7 @@ the properties of all commutative rings.
 
 
 example (a b c : ℝ) : (a * b) * c = b * (a * c) := by
-  ring
+  prop
 
 /- It's your turn, replace the word sorry below by a proof. In this case the proof is just `ring`.
 After you prove something, you will see a small "No goals" message, which is the indication that
